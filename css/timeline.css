@@ -492,9 +492,7 @@
 }
 .tl-icon-dribbble:after {
   content: "\e643";
-}
-.tl-icon-image:after {
-  content: "\e605";
+
 }
 .tl-icon-vimeo:after {
   content: "\e606";
