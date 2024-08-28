@@ -2498,12 +2498,12 @@
 }
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Forma DJ Micro", Forma DJ Micro, Arial, sans-serif;
   font-size: 15px;
   line-height: 15px;
   font-weight: normal;
   margin: 0 0 3px 0;
-  color: #b3b3b3;
+  color: #8f6eae;
 }
 .tl-text .tl-headline-date small,
 .tl-text h3.tl-headline-date small {
@@ -2514,11 +2514,11 @@
 }
 .tl-text .tl-text-date {
   display: inline-block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Forma DJ Micro", Helvetica, Arial, sans-serif;
   font-weight: normal;
   margin-top: 10px;
   font-size: 12px;
-  color: #b3b3b3;
+  color: #8f6eae;
 }
 .tl-full-image-background .tl-text,
 .tl-full-color-background .tl-text,
