@@ -1170,7 +1170,7 @@
 }
 .tl-timemarker:hover .tl-timemarker-content-container.tl-timemarker-content-container-small,
 .tl-timemarker:focus .tl-timemarker-content-container.tl-timemarker-content-container-small {
-  width: 200px;
+  width: 250px;
 }
 .tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
 .tl-timemarker:focus .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
