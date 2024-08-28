@@ -137,7 +137,7 @@
   }
   .tl-timeline p a:hover,
   .tl-timeline p a:focus {
-    color: #c34528;
+    color: #8f6eae;
     text-decoration: underline;
   }
 }
@@ -151,11 +151,11 @@
 }
 .tl-timeline a {
   text-decoration: none;
-  color: #c34528;
+  color: #8f6eae;
 }
 .tl-timeline a:hover {
   text-decoration: underline;
-  color: #6e2717;
+  color: #8f6eae;
 }
 .tl-timeline .tl-caption,
 .tl-timeline .tl-credit,
