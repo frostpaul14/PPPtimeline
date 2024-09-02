@@ -1511,9 +1511,15 @@
   transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
 }
 .tl-timegroup .tl-timegroup-message {
-  color: #8f6eae;
-  text-shadow: #FFF 0px 2px 2px;
-  margin-left: 80px;
+    color: #8f6eae;
+    z-index: 9;
+    text-shadow: #FFF 0px 2px 2px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    padding: 30px;
+    width: 22%;
+    padding-left: 60px;
+    margin-left: 0px;
 }
 .tl-timegroup.tl-timegroup-alternate {
   background-color: #fafafa;
