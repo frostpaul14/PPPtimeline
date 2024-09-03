@@ -1630,7 +1630,7 @@
   margin-left: 50px;
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick {
-  font-size: 12px;
+  font-size: 0px;
   line-height: 13px;
   color: #8f6eae;
   width: 50px;
