@@ -61,18 +61,18 @@
             "December"
         ],
         "month_abbr": [
-            "Jan.",
-            "Feb.",
-            "March",
-            "April",
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
             "May",
-            "June",
-            "July",
-            "Aug.",
-            "Sept.",
-            "Oct.",
-            "Nov.",
-            "Dec."
+            "Jun",
+            "Jul",
+            "Au",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
         ],
         "day": [
             "Sunday",
