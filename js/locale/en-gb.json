@@ -56,9 +56,9 @@
     },
     "dateformats": {
         "full_long": "d mmm yyyy 'at' HH:MM TT",
-        "full_short": "d mmm",
+        "full_short": "d mmm yy",
         "full": "d mmmm yyyy",
-        "month_short": "mmm",
+        "month_short": "mmm yy",
         "time_no_seconds_small_date": "HH:MM TT'<br/><small>'d mmmm yyyy'</small>'",
         "month": "mmmm yyyy",
         "time_no_seconds_short": "HH:MM TT",
