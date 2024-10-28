@@ -1509,24 +1509,18 @@
   -moz-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
   -o-transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
   transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
-
+}
 .tl-timegroup .tl-timegroup-message {
     color: #8f6eae;
     z-index: 9;
     text-shadow: #FFF 0px 2px 2px;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(3px);
-    padding: 1.4em 0em 1.4em 0em;
-    width: 20%;
-    padding-left: 43px;
-    margin-left: 1px;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1em;
-    font-size: 15px;
+    padding: 1.2em;
+    width: 35%;
+    padding-left: 60px;
+    margin-left: 0px;
 }
-
 .tl-timegroup.tl-timegroup-alternate {
   background-color: #fafafa;
 }
