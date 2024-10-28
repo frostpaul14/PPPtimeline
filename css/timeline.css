@@ -1516,8 +1516,8 @@
     text-shadow: #FFF 0px 2px 2px;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(3px);
-    padding: 3em;
-    width: 22%;
+    padding: 1.2em;
+    width: 50%;
     padding-left: 60px;
     margin-left: 0px;
 }
@@ -2571,15 +2571,15 @@
 }
 .tl-skinny .tl-text h2.tl-headline-title,
 .tl-skinny .tl-text h2.tl-headline {
-  font-size: 32px;
-  line-height: 36px;
+  font-size: 20px;
+  line-height: 22px;
 }
 /* Medium
 ================================================== */
 .tl-medium .tl-text h2.tl-headline-title,
 .tl-medium .tl-text h2.tl-headline {
-  font-size: 32px;
-  line-height: 36px;
+  font-size: 20px;
+  line-height: 22px;
 }
 /* Mobile, iPhone
 ================================================== */
