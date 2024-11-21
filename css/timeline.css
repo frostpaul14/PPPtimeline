@@ -39,13 +39,13 @@ a:hover {
   font-size: 11px;
   line-height: 11px;
 }
-.tl-timeline .tl-caption a,
-.tl-timeline .tl-credit a,
-.tl-timeline .tl-slidenav-next a,
-.tl-timeline .tl-slidenav-previous a {
+.tl-caption a,
+.tl-credit a,
+.tl-slidenav-next a,
+.tl-slidenav-previous a {
   color: #000;
 }
-.tl-timeline .tl-makelink {
+.tl-makelink {
   font-family: "trade-gothic-next", sans-serif;
   word-break: break-all;
   word-break: break-word;
@@ -53,8 +53,8 @@ a:hover {
   -moz-hyphens: auto;
   hyphens: auto;
 }
-.tl-timeline blockquote,
-.tl-timeline blockquote p {
+blockquote,
+blockquote p {
   font-family: "trade-gothic-next", sans-serif;
   color: #999999;
   font-size: 24px;
@@ -64,8 +64,8 @@ a:hover {
   border: 0px;
   padding: 0px;
 }
-.tl-timeline blockquote cite,
-.tl-timeline blockquote p cite {
+blockquote cite,
+blockquote p cite {
   font-family: "trade-gothic-next", sans-serif;
   font-size: 11px;
   color: #666666;
@@ -73,11 +73,11 @@ a:hover {
   text-align: right;
   font-style: normal;
 }
-.tl-timeline blockquote cite:before,
-.tl-timeline blockquote p cite:before {
+blockquote cite:before,
+ blockquote p cite:before {
   content: "\2014";
 }
-.tl-timeline blockquote p:before {
+blockquote p:before {
   font-family: "trade-gothic-next", sans-serif;
   content: open-quote;
   display: inline-block;
@@ -86,7 +86,7 @@ a:hover {
   top: 8px;
   margin-right: 5px;
 }
-.tl-timeline blockquote p:after {
+blockquote p:after {
   font-family: "trade-gothic-next", sans-serif;
   content: close-quote;
   display: inline-block;
@@ -95,94 +95,94 @@ a:hover {
   top: 8px;
   margin-left: 3px;
 }
-.tl-timeline blockquote {
+blockquote {
   font-family: "trade-gothic-next", sans-serif;
   margin: 10px;
 }
-.tl-timeline blockquote p {
+blockquote p {
   font-family: "trade-gothic-next", sans-serif;
   margin: 0;
 }
-.tl-timeline .vcard {
+.vcard {
  font-family: "trade-gothic-next", sans-serif;
   font-size: 15px;
   line-height: 15px;
   margin-bottom: 15px;
   margin-top: 10px;
 }
-.tl-timeline .vcard:before,
-.tl-timeline .vcard:after {
+.vcard:before,
+.vcard:after {
   display: table;
   content: "";
 }
-.tl-timeline .vcard:after {
+.vcard:after {
   clear: both;
 }
-.tl-timeline .vcard .twitter-date {
+.vcard .twitter-date {
   text-align: left;
   font-size: 11px;
 }
-.tl-timeline .vcard .author {
+.vcard .author {
   float: right;
 }
-.tl-timeline .vcard a {
+.vcard a {
   color: #333333;
   text-decoration: none;
 }
-.tl-timeline .vcard a:hover {
+.vcard a:hover {
   text-decoration: none;
 }
-.tl-timeline .vcard a:hover .fn,
-.tl-timeline .vcard a:hover .nickname {
+.vcard a:hover .fn,
+.vcard a:hover .nickname {
   color: #c34528;
 }
-.tl-timeline .vcard .fn,
-.tl-timeline .vcard .nickname {
+.vcard .fn,
+.vcard .nickname {
   padding-left: 42px;
 }
-.tl-timeline .vcard .fn {
+.vcard .fn {
   display: block;
   font-weight: bold;
 }
-.tl-timeline .vcard .nickname {
+.vcard .nickname {
   margin-top: 1px;
   display: block;
   color: #666666;
 }
-.tl-timeline .vcard .avatar {
+.vcard .avatar {
   float: left;
   display: block;
   width: 32px;
   height: 32px;
 }
-.tl-timeline .vcard .avatar img {
+.vcard .avatar img {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-.tl-timeline .tl-text ul {
+.tl-text ul {
   padding: 0px;
   padding-left: 30px;
   margin: 0;
 }
-.tl-timeline .tl-text ul li {
+.tl-text ul li {
   margin-bottom: 5px;
 }
-.tl-timeline .tl-button-calltoaction {
+.tl-button-calltoaction {
   cursor: pointer;
   font-weight: bold;
   padding-top: 10px;
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
-.tl-timeline .tl-button-calltoaction .tl-button-calltoaction-text {
+.tl-button-calltoaction .tl-button-calltoaction-text {
   display: inline-block;
   background-color: #c34528;
   color: #fff;
   padding: 10px 15px 10px 15px;
   border-radius: 7px;
 }
-.tl-timeline .tl-note {
+.tl-note {
   display: block;
   font-family: "Trade-gothic-next", sans-serif;
   font-style: italic;
@@ -198,17 +198,17 @@ a:hover {
   text-shadow: none;
 }
 @media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
-  .tl-timeline h1,
-  .tl-timeline h2,
-  .tl-timeline h3 {
+h1,
+h2,
+h3 {
     font-size: 28px;
     line-height: 28px;
   }
 }
 @media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
-  .tl-timeline h1,
-  .tl-timeline h2,
-  .tl-timeline h3 {
+h1,
+h2,
+h3 {
     font-size: 24px;
     line-height: 24px;
   }
