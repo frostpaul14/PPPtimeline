@@ -1,186 +1,41 @@
-/*!
-	Timeline JS 3 
-	
-	Designed and built by Zach Wise for the Northwestern University Knight Lab
-	
-	This Source Code Form is subject to the terms of the Mozilla Public
-	License, v. 2.0. If a copy of the MPL was not distributed with this
-	file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
-*/
-/* Includes 
-================================================== */
-/*	VARIABLES
-	BASE
------------------------------------------------------ */
-/* ICON PATH
-================================================== */
-/* TYPEFACE
-================================================== */
-/* COLOR SCHEME
-================================================== */
-/* UI COLOR
-================================================== */
-/* UI
-================================================== */
-/* Animation
-================================================== */
-/* GFX
-================================================== */
-/*!
-	Timeline JS 3
+p a:hover,
+p a:focus {
 
-	Designed and built by Zach Wise for the Northwestern University Knight Lab
-
-	This Source Code Form is subject to the terms of the Mozilla Public
-	License, v. 2.0. If a copy of the MPL was not distributed with this
-	file, You can obtain one at https://mozilla.org/MPL/2.0/.
-
-*/
-/* Includes
-================================================== */
-/*	Mixins.less
-	Snippets of reusable CSS to develop faster and keep code readable
- * ----------------------------------------------------------------- */
-.tl-timeline {
-    font-family: "trade-gothic-next", sans-serif !important; /* Replace with the Typekit font you’re using */
-}  /* VCard
-	================================================== */
-}
-.tl-timeline h1,
-.tl-timeline h2,
-.tl-timeline h3,
-.tl-timeline h4,
-.tl-timeline h5,
-.tl-timeline h6  {
-  font-family: "trade-gothic-next", sans-serif;
-  text-transform: none !important;
-  color: #000;
-}
-.tl-timeline h1,
-.tl-timeline h2,
-.tl-timeline h3 {
-  font-family: "trade-gothic-next", sans-serif;
-text-transform: none !important;
-  font-size: 28px;
-  line-height: 28px;
-}
-.tl-timeline h1 small,
-.tl-timeline h2 small,
-.tl-timeline h3 small {
-  font-family: "trade-gothic-next", sans-serif;
-  font-size: 24px;
-  line-height: 24px;
-}
-.tl-timeline h4,
-.tl-timeline h5,
-.tl-timeline h6 {
-  font-family: "trade-gothic-next", sans-serif;
-  font-size: 24px;
-  line-height: 24px;
-  margin-bottom: 0px;
-}
-.tl-timeline h4 small,
-.tl-timeline h5 small,
-.tl-timeline h6 small {
-  font-family: "trade-gothic-next", sans-serif;
-  font-size: 15px;
-  line-height: 15px;
-}
-.tl-timeline h2.tl-headline-title {
-  font-family: "trade-gothic-next", sans-serif !important;
-  font-size: 38px;
-  line-height: 38px;
-}
-.tl-timeline h2.tl-headline-title small {
-  font-family: "trade-gothic-next", sans-serif !important;
-  display: block;
-  margin-top: 5px;
-  font-size: 24px;
-  line-height: 24px;
-}
-.tl-timeline h2 {
-  font-family: "trade-gothic-next", sans-serif !important;
-  text-transform: none;
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-.tl-timeline p {
-  font-family: "trade-gothic-next", sans-serif !important;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-size: 15px;
-  line-height: 1.42857143;
-  color: #E30613;
-}
-.tl-timeline p.lead {
-  font-family: "trade-gothic-next", sans-serif;
-  font-size: 24px;
-}
-.tl-timeline p a {
-  /*
-			color: lighten(@color-dark, 40%);
-			text-decoration: none;
-			background-image: -moz-linear-gradient(top, fade(lighten(@color-dark, 40%), 0%) 50%, fade(lighten(@color-dark, 40%), 60%) 50%);
-			background-image: -webkit-linear-gradient(top, fade(lighten(@color-dark, 40%), 0%) 50%, fade(lighten(@color-dark, 40%), 60%) 50%);
-			background-image: -o-linear-gradient(top, fade(lighten(@color-dark, 40%), 0%) 50%, fade(lighten(@color-dark, 40%), 60%) 50%);
-			background-image: linear-gradient(to bottom, fade(lighten(@color-dark, 40%), 0%) 50%, fade(lighten(@color-dark, 40%), 60%) 50%);
-			background-repeat: repeat-x;
-			background-size: 2px 2px;
-			background-position: 0 @base-font-size+2;
-			text-shadow: -2px -1px 0 white, 2px -1px 0 white, -2px 1px 0 white, 2px 1px 0 white;
-			&:hover,
-			&:focus {
-				color:@color-theme;
-				text-decoration: none;
-			}
-			*/
-  color: #E30613;
-  text-decoration: underline;
-}
-.tl-timeline p a:hover,
-.tl-timeline p a:focus {
-  font-family: "trade-gothic-next", sans-serif;
-  color: #8f6eae;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  .tl-timeline p a {
-    font-family: "trade-gothic-next", sans-serif;
+p a {
     text-decoration: underline;
     background-image: none;
     text-shadow: none;
   }
-  .tl-timeline p a:hover,
-  .tl-timeline p a:focus {
+p a:hover,
+p a:focus {
     color: #E30613;
     text-decoration: underline;
   }
 }
-.tl-timeline b,
-.tl-timeline strong {
-  font-family: "trade-gothic-next", sans-serif;
+b,
+strong {
   font-weight: bold;
 }
-.tl-timeline i,
-.tl-timeline em {
-  font-family: "trade-gothic-next", sans-serif;
+i,
+em {
   font-style: italic;
 }
-.tl-timeline a {
-  font-family: "trade-gothic-next", sans-serif;
+a {
   text-decoration: none;
   color: #E30613;
 }
-.tl-timeline a:hover {
+a:hover {
   font-family: "trade-gothic-next", sans-serif;
   text-decoration: underline;
   color: #E30613;
 }
-.tl-timeline .tl-caption,
-.tl-timeline .tl-credit,
-.tl-timeline .tl-slidenav-next,
-.tl-timeline .tl-slidenav-previous {
-  font-family: "trade-gothic-next", sans-serif;
+.tl-caption,
+.tl-credit,
+.tl-slidenav-next,
+.tl-slidenav-previous {
   font-size: 11px;
   line-height: 11px;
 }
@@ -2531,7 +2386,7 @@ font-style: normal;
 }
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
-  font-family: "Trade-gothic-next", sans-serif;
+  font-family: "trade-gothic-next", sans-serif !important;
   font-size: 15px;
   line-height: 15px;
   font-weight: normal;
@@ -2540,6 +2395,7 @@ font-style: normal;
 }
 .tl-text .tl-headline-date small,
 .tl-text h3.tl-headline-date small {
+   font-family: "trade-gothic-next", sans-serif !important;
   font-size: 15px;
   line-height: 15px;
   font-weight: normal;
@@ -2547,7 +2403,7 @@ font-style: normal;
 }
 .tl-text .tl-text-date {
   display: inline-block;
-  font-family: "Trade-gothic-next", sans-serif;
+  font-family: "trade-gothic-next", sans-serif !important;
   font-weight: normal;
   margin-top: 10px;
   font-size: 12px;
