@@ -1,342 +1,4 @@
-/*!
-	Timeline JS 3 
-	
-	Designed and built by Zach Wise for the Northwestern University Knight Lab
-	
-	This Source Code Form is subject to the terms of the Mozilla Public
-	License, v. 2.0. If a copy of the MPL was not distributed with this
-	file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
-*/
-/* Includes 
-================================================== */
-/*	VARIABLES
-	BASE
------------------------------------------------------ */
-/* ICON PATH
-================================================== */
-/* TYPEFACE
-================================================== */
-/* COLOR SCHEME
-================================================== */
-/* UI COLOR
-================================================== */
-/* UI
-================================================== */
-/* Animation
-================================================== */
-/* GFX
-================================================== */
-/*!
-	Timeline JS 3
-
-	Designed and built by Zach Wise for the Northwestern University Knight Lab
-
-	This Source Code Form is subject to the terms of the Mozilla Public
-	License, v. 2.0. If a copy of the MPL was not distributed with this
-	file, You can obtain one at https://mozilla.org/MPL/2.0/.
-
-*/
-/* Includes
-================================================== */
-/*	Mixins.less
-	Snippets of reusable CSS to develop faster and keep code readable
- * ----------------------------------------------------------------- */
-.tl-timeline {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* VCard
-	================================================== */
-}
-.tl-timeline h1,
-.tl-timeline h2,
-.tl-timeline h3,
-.tl-timeline h4,
-.tl-timeline h5,
-.tl-timeline h6 {
-  color: #000;
-}
-.tl-timeline h1,
-.tl-timeline h2,
-.tl-timeline h3 {
-  font-size: 28px;
-  line-height: 28px;
-}
-.tl-timeline h1 small,
-.tl-timeline h2 small,
-.tl-timeline h3 small {
-  font-size: 24px;
-  line-height: 24px;
-}
-.tl-timeline h4,
-.tl-timeline h5,
-.tl-timeline h6 {
-  font-size: 24px;
-  line-height: 24px;
-  margin-bottom: 0px;
-}
-.tl-timeline h4 small,
-.tl-timeline h5 small,
-.tl-timeline h6 small {
-  font-size: 15px;
-  line-height: 15px;
-}
-.tl-timeline h2.tl-headline-title {
-  font-size: 38px;
-  line-height: 38px;
-}
-.tl-timeline h2.tl-headline-title small {
-  display: block;
-  margin-top: 5px;
-  font-size: 24px;
-  line-height: 24px;
-}
-.tl-timeline h2 {
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-.tl-timeline p {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  font-size: 15px;
-  line-height: 1.42857143;
-  color: #E30613;
-}
-.tl-timeline p.lead {
-  font-size: 24px;
-}
-.tl-timeline p a {
-  /*
-			color: lighten(@color-dark, 40%);
-			text-decoration: none;
-			background-image: -moz-linear-gradient(top, fade(lighten(@color-dark, 40%), 0%) 50%, fade(lighten(@color-dark, 40%), 60%) 50%);
-			background-image: -webkit-linear-gradient(top, fade(lighten(@color-dark, 40%), 0%) 50%, fade(lighten(@color-dark, 40%), 60%) 50%);
-			background-image: -o-linear-gradient(top, fade(lighten(@color-dark, 40%), 0%) 50%, fade(lighten(@color-dark, 40%), 60%) 50%);
-			background-image: linear-gradient(to bottom, fade(lighten(@color-dark, 40%), 0%) 50%, fade(lighten(@color-dark, 40%), 60%) 50%);
-			background-repeat: repeat-x;
-			background-size: 2px 2px;
-			background-position: 0 @base-font-size+2;
-			text-shadow: -2px -1px 0 white, 2px -1px 0 white, -2px 1px 0 white, 2px 1px 0 white;
-			&:hover,
-			&:focus {
-				color:@color-theme;
-				text-decoration: none;
-			}
-			*/
-  color: #E30613;
-  text-decoration: underline;
-}
-.tl-timeline p a:hover,
-.tl-timeline p a:focus {
-  color: #8f6eae;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-  .tl-timeline p a {
-    text-decoration: underline;
-    background-image: none;
-    text-shadow: none;
-  }
-  .tl-timeline p a:hover,
-  .tl-timeline p a:focus {
-    color: #E30613;
-    text-decoration: underline;
-  }
-}
-.tl-timeline b,
-.tl-timeline strong {
-  font-weight: bold;
-}
-.tl-timeline i,
-.tl-timeline em {
-  font-style: italic;
-}
-.tl-timeline a {
-  text-decoration: none;
-  color: #E30613;
-}
-.tl-timeline a:hover {
-  text-decoration: underline;
-  color: #E30613;
-}
-.tl-timeline .tl-caption,
-.tl-timeline .tl-credit,
-.tl-timeline .tl-slidenav-next,
-.tl-timeline .tl-slidenav-previous {
-  font-size: 11px;
-  line-height: 11px;
-}
-.tl-timeline .tl-caption a,
-.tl-timeline .tl-credit a,
-.tl-timeline .tl-slidenav-next a,
-.tl-timeline .tl-slidenav-previous a {
-  color: #000;
-}
-.tl-timeline .tl-makelink {
-  word-break: break-all;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-}
-.tl-timeline blockquote,
-.tl-timeline blockquote p {
-  font-family: "Georgia", "Times New Roman", Times, serif;
-  color: #999999;
-  font-size: 24px;
-  line-height: 24px;
-  text-align: left;
-  background: transparent;
-  border: 0px;
-  padding: 0px;
-}
-.tl-timeline blockquote cite,
-.tl-timeline blockquote p cite {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 11px;
-  color: #666666;
-  display: block;
-  text-align: right;
-  font-style: normal;
-}
-.tl-timeline blockquote cite:before,
-.tl-timeline blockquote p cite:before {
-  content: "\2014";
-}
-.tl-timeline blockquote p:before {
-  content: open-quote;
-  display: inline-block;
-  font-size: 28px;
-  position: relative;
-  top: 8px;
-  margin-right: 5px;
-}
-.tl-timeline blockquote p:after {
-  content: close-quote;
-  display: inline-block;
-  font-size: 28px;
-  position: relative;
-  top: 8px;
-  margin-left: 3px;
-}
-.tl-timeline blockquote {
-  margin: 10px;
-}
-.tl-timeline blockquote p {
-  margin: 0;
-}
-.tl-timeline .vcard {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 15px;
-  margin-bottom: 15px;
-  margin-top: 10px;
-}
-.tl-timeline .vcard:before,
-.tl-timeline .vcard:after {
-  display: table;
-  content: "";
-}
-.tl-timeline .vcard:after {
-  clear: both;
-}
-.tl-timeline .vcard .twitter-date {
-  text-align: left;
-  font-size: 11px;
-}
-.tl-timeline .vcard .author {
-  float: right;
-}
-.tl-timeline .vcard a {
-  color: #333333;
-  text-decoration: none;
-}
-.tl-timeline .vcard a:hover {
-  text-decoration: none;
-}
-.tl-timeline .vcard a:hover .fn,
-.tl-timeline .vcard a:hover .nickname {
-  color: #c34528;
-}
-.tl-timeline .vcard .fn,
-.tl-timeline .vcard .nickname {
-  padding-left: 42px;
-}
-.tl-timeline .vcard .fn {
-  display: block;
-  font-weight: bold;
-}
-.tl-timeline .vcard .nickname {
-  margin-top: 1px;
-  display: block;
-  color: #666666;
-}
-.tl-timeline .vcard .avatar {
-  float: left;
-  display: block;
-  width: 32px;
-  height: 32px;
-}
-.tl-timeline .vcard .avatar img {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-.tl-timeline .tl-text ul {
-  padding: 0px;
-  padding-left: 30px;
-  margin: 0;
-}
-.tl-timeline .tl-text ul li {
-  margin-bottom: 5px;
-}
-.tl-timeline .tl-button-calltoaction {
-  cursor: pointer;
-  font-weight: bold;
-  padding-top: 10px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-}
-.tl-timeline .tl-button-calltoaction .tl-button-calltoaction-text {
-  display: inline-block;
-  background-color: #c34528;
-  color: #fff;
-  padding: 10px 15px 10px 15px;
-  border-radius: 7px;
-}
-.tl-timeline .tl-note {
-  display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  background-color: #fcf8e3;
-  font-size: 15px;
-  line-height: 17px;
-  padding: 10px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  border-radius: 7px;
-  color: #E30613;
-  border: 1px solid #faebcc;
-  text-shadow: none;
-}
-@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
-  .tl-timeline h1,
-  .tl-timeline h2,
-  .tl-timeline h3 {
-    font-size: 28px;
-    line-height: 28px;
-  }
-}
-@media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
-  .tl-timeline h1,
-  .tl-timeline h2,
-  .tl-timeline h3 {
-    font-size: 24px;
-    line-height: 24px;
-  }
-}
-.tl-skinny h2 {
-  margin-top: 0px;
-}
-/* Icons
 ================================================== */
 @font-face {
   font-family: 'tl-icons';
@@ -805,7 +467,7 @@
   background-color: #DADDe6; /*Background colour of the timeline top*/
   position: relative;
   overflow: hidden;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #0e1c3f;
 }
 .tl-timenav .tl-timenav-line {
   position: absolute;
@@ -1021,7 +683,7 @@
 } /*This below changes the time marker on the timeline before state */
 .tl-timemarker .tl-timemarker-content-container {
   position: absolute;
-  background-color: #e5e5e5;
+  background-color: #591e30; /*Colour of the prestate flads on the timeline*/
   border: 0;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -1073,7 +735,7 @@
   line-height: 16px;
   height: 100%;
   overflow: hidden;
-  font-family: "trade-gothic-next", sans-serif;
+  font-family: "Trade-gothic-next", sans-serif;
 font-weight: 700;
 font-style: normal;
   margin: 0;
@@ -1147,7 +809,7 @@ font-style: normal;
 }
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-timespan-content,
 .tl-timemarker:focus .tl-timemarker-timespan .tl-timemarker-timespan-content {
-  background-color: #cbbeda;
+  background-color: #e30613;
 }
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-line-left,
 .tl-timemarker:focus .tl-timemarker-timespan .tl-timemarker-line-left,
@@ -1159,11 +821,11 @@ font-style: normal;
 .tl-timemarker:focus .tl-timemarker-timespan .tl-timemarker-line-left:after,
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-line-right:after,
 .tl-timemarker:focus .tl-timemarker-timespan .tl-timemarker-line-right:after {
-  background-color: #cbbeda;
+  background-color: #e30613;
 }
 .tl-timemarker:hover .tl-timemarker-content-container,
 .tl-timemarker:focus .tl-timemarker-content-container {
-  background-color: #cbbeda;
+  background-color: #e30613/*Colour of the hover flag on the timeline*/;
   border-color: #cbbeda;
   -webkit-transition: height 250ms cubic-bezier(0.77, 0, 0.175, 1), width 250ms cubic-bezier(0.77, 0, 0.175, 1);
   -moz-transition: height 250ms cubic-bezier(0.77, 0, 0.175, 1), width 250ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -2480,7 +2142,7 @@ font-style: normal;
 }
 /* Requires Variables.less
 ================================================== */
-.tl-text {
+.tl-text { /*H1 copy*/
   width: 50%;
   max-width: 50%;
   min-width: 120px;
@@ -2489,10 +2151,10 @@ font-style: normal;
   vertical-align: middle;
   text-align: left;
   text-shadow: none;
-  color: #cbbeda;
+  color: #591e30;
 }
 .tl-text p {
-  color: #737373;
+  color: #591e30; /*body copy on white*/
 }
 .tl-text .tl-text-content-container .tl-text-headline-container {
   display: flex;
@@ -2506,7 +2168,7 @@ font-style: normal;
 }
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
-  font-family: "Forma DJ Micro", Forma DJ Micro, Arial, sans-serif;
+  font-family: "Trade-gothic-next", sans-serif;
   font-size: 15px;
   line-height: 15px;
   font-weight: normal;
@@ -2518,21 +2180,21 @@ font-style: normal;
   font-size: 15px;
   line-height: 15px;
   font-weight: normal;
-  color: #b3b3b3;
+  color: #E30613;
 }
 .tl-text .tl-text-date {
   display: inline-block;
-  font-family: "Forma DJ Micro", Helvetica, Arial, sans-serif;
+  font-family: "Trade-gothic-next", sans-serif;
   font-weight: normal;
   margin-top: 10px;
   font-size: 12px;
-  color: #8f6eae;
+  color: #E30613;
 }
 .tl-full-image-background .tl-text,
 .tl-full-color-background .tl-text,
 .tl-full-image-background .tl-text p,
 .tl-full-color-background .tl-text p {
-  color: #26ff99 !important;
+  color: #00000 !important; /*colour of the copy on a coloured background*/
   text-shadow: 1px 1px 2px #000;
 }
 .tl-full-image-background .tl-text .tl-headline-date,
@@ -2561,7 +2223,7 @@ font-style: normal;
 .tl-full-image-background .tl-text p a:hover,
 .tl-full-color-background .tl-text p a:hover {
   text-decoration: underline;
-  color: #c34528;
+  color: #E30613;
 }
 /* Skinny
 ================================================== */
@@ -2903,7 +2565,7 @@ font-style: normal;
   left: 0px;
   font-size: 10px;
   line-height: 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: "Trade-gothic-next", sans-serif !important;
   background-color: rgba(255, 255, 255, 0.85);
   padding: 3px;
 }
