@@ -43,7 +43,7 @@
 	Snippets of reusable CSS to develop faster and keep code readable
  * ----------------------------------------------------------------- */
 .tl-timeline {
-    font-family: "Trade-gothic-next", sans-serif; /* Replace with the Typekit font you’re using */
+    font-family: "trade-gothic-next", sans-serif !important; /* Replace with the Typekit font you’re using */
 }  /* VCard
 	================================================== */
 }
@@ -52,24 +52,30 @@
 .tl-timeline h3,
 .tl-timeline h4,
 .tl-timeline h5,
-.tl-timeline h6 {
+.tl-timeline h6  {
+  font-family: "trade-gothic-next", sans-serif;
+  text-transform: none !important;
   color: #000;
 }
 .tl-timeline h1,
 .tl-timeline h2,
 .tl-timeline h3 {
+  font-family: "trade-gothic-next", sans-serif;
+text-transform: none !important;
   font-size: 28px;
   line-height: 28px;
 }
 .tl-timeline h1 small,
 .tl-timeline h2 small,
 .tl-timeline h3 small {
+  font-family: "trade-gothic-next", sans-serif;
   font-size: 24px;
   line-height: 24px;
 }
 .tl-timeline h4,
 .tl-timeline h5,
 .tl-timeline h6 {
+  font-family: "trade-gothic-next", sans-serif;
   font-size: 24px;
   line-height: 24px;
   margin-bottom: 0px;
@@ -77,24 +83,30 @@
 .tl-timeline h4 small,
 .tl-timeline h5 small,
 .tl-timeline h6 small {
+  font-family: "trade-gothic-next", sans-serif;
   font-size: 15px;
   line-height: 15px;
 }
 .tl-timeline h2.tl-headline-title {
+  font-family: "trade-gothic-next", sans-serif !important;
   font-size: 38px;
   line-height: 38px;
 }
 .tl-timeline h2.tl-headline-title small {
+  font-family: "trade-gothic-next", sans-serif !important;
   display: block;
   margin-top: 5px;
   font-size: 24px;
   line-height: 24px;
 }
 .tl-timeline h2 {
+  font-family: "trade-gothic-next", sans-serif !important;
+  text-transform: none;
   margin-top: 20px;
   margin-bottom: 5px;
 }
 .tl-timeline p {
+  font-family: "trade-gothic-next", sans-serif !important;
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 15px;
@@ -102,6 +114,7 @@
   color: #E30613;
 }
 .tl-timeline p.lead {
+  font-family: "trade-gothic-next", sans-serif;
   font-size: 24px;
 }
 .tl-timeline p a {
@@ -127,10 +140,12 @@
 }
 .tl-timeline p a:hover,
 .tl-timeline p a:focus {
+  font-family: "trade-gothic-next", sans-serif;
   color: #8f6eae;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .tl-timeline p a {
+    font-family: "trade-gothic-next", sans-serif;
     text-decoration: underline;
     background-image: none;
     text-shadow: none;
@@ -143,17 +158,21 @@
 }
 .tl-timeline b,
 .tl-timeline strong {
+  font-family: "trade-gothic-next", sans-serif;
   font-weight: bold;
 }
 .tl-timeline i,
 .tl-timeline em {
+  font-family: "trade-gothic-next", sans-serif;
   font-style: italic;
 }
 .tl-timeline a {
+  font-family: "trade-gothic-next", sans-serif;
   text-decoration: none;
   color: #E30613;
 }
 .tl-timeline a:hover {
+  font-family: "trade-gothic-next", sans-serif;
   text-decoration: underline;
   color: #E30613;
 }
@@ -161,6 +180,7 @@
 .tl-timeline .tl-credit,
 .tl-timeline .tl-slidenav-next,
 .tl-timeline .tl-slidenav-previous {
+  font-family: "trade-gothic-next", sans-serif;
   font-size: 11px;
   line-height: 11px;
 }
@@ -171,6 +191,7 @@
   color: #000;
 }
 .tl-timeline .tl-makelink {
+  font-family: "trade-gothic-next", sans-serif;
   word-break: break-all;
   word-break: break-word;
   -webkit-hyphens: auto;
@@ -179,7 +200,7 @@
 }
 .tl-timeline blockquote,
 .tl-timeline blockquote p {
-  font-family: "Trade-gothic-next", sans-serif;
+  font-family: "trade-gothic-next", sans-serif;
   color: #999999;
   font-size: 24px;
   line-height: 24px;
@@ -190,7 +211,7 @@
 }
 .tl-timeline blockquote cite,
 .tl-timeline blockquote p cite {
-  font-family: "Trade-gothic-next", sans-serif;
+  font-family: "trade-gothic-next", sans-serif;
   font-size: 11px;
   color: #666666;
   display: block;
@@ -202,6 +223,7 @@
   content: "\2014";
 }
 .tl-timeline blockquote p:before {
+  font-family: "trade-gothic-next", sans-serif;
   content: open-quote;
   display: inline-block;
   font-size: 28px;
@@ -210,6 +232,7 @@
   margin-right: 5px;
 }
 .tl-timeline blockquote p:after {
+  font-family: "trade-gothic-next", sans-serif;
   content: close-quote;
   display: inline-block;
   font-size: 28px;
@@ -218,13 +241,15 @@
   margin-left: 3px;
 }
 .tl-timeline blockquote {
+  font-family: "trade-gothic-next", sans-serif;
   margin: 10px;
 }
 .tl-timeline blockquote p {
+  font-family: "trade-gothic-next", sans-serif;
   margin: 0;
 }
 .tl-timeline .vcard {
- font-family: "Trade-gothic-next", sans-serif;
+ font-family: "trade-gothic-next", sans-serif;
   font-size: 15px;
   line-height: 15px;
   margin-bottom: 15px;
