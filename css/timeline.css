@@ -128,7 +128,6 @@ text-transform: none !important;
 			background-repeat: repeat-x;
 			background-size: 2px 2px;
 			background-position: 0 @base-font-size+2;
-			text-shadow: -2px -1px 0 white, 2px -1px 0 white, -2px 1px 0 white, 2px 1px 0 white;
 			&:hover,
 			&:focus {
 				color:@color-theme;
@@ -1834,7 +1833,7 @@ font-style: normal;
 .tl-slide.tl-full-image-background,
 .tl-slide.tl-full-color-background {
   color: #FFF !important;
-  text-shadow: 1px 1px 1px #000 !important;
+  text-shadow: none !important;
 }
 .tl-slide.tl-full-image-background p,
 .tl-slide.tl-full-color-background p,
@@ -1851,7 +1850,7 @@ font-style: normal;
 .tl-slide.tl-full-image-background h6,
 .tl-slide.tl-full-color-background h6 {
   color: #FFF !important;
-  text-shadow: 1px 1px 1px #000 !important;
+  text-shadow: none !important; /*removes the drop shadow on text*/
 }
 .tl-slide.tl-full-image-background a,
 .tl-slide.tl-full-color-background a,
