@@ -1822,7 +1822,7 @@ font-style: normal;
   text-align: center;
 }
 .tl-slide-text-only .tl-slide-content-container .tl-slide-content .tl-text {
-  max-width: 80%;
+  max-width: 50%;
   width: 80%;
   display: block;
   margin-left: auto;
