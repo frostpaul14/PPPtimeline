@@ -24,25 +24,25 @@ http://www.google.com/webfonts/specimen/PT+Serif
 /* GFX
 ================================================== */
 @font-face {
-  font-family: "trade-gothic-next", sans-serif;
+  font-family: "trade-gothic-next", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   src: url(https://use.typekit.net/eay2lji.css);
 }
 @font-face {
-  font-family: "trade-gothic-next", sans-serif;
+  font-family: "trade-gothic-next", sans-serif !important;
   font-style: normal;
   font-weight: 700;
   src: url(https://use.typekit.net/eay2lji.css);
 }
 @font-face {
-  font-family: "trade-gothic-next", sans-serif;
+  font-family: "trade-gothic-next", sans-serif !important; 
   font-style: italic;
   font-weight: 400;
   src: url(https://use.typekit.net/eay2lji.css);
 }
 @font-face {
-  font-family: "trade-gothic-next", sans-serif;
+  font-family: "trade-gothic-next", sans-serif !important;
   font-style: normal;
   font-weight: 400;
   src: url(https://use.typekit.net/eay2lji.css);
@@ -50,7 +50,7 @@ http://www.google.com/webfonts/specimen/PT+Serif
 /*	Font Base
 ----------------------------------------------------- */
 .tl-timeline {
-  font-family: "trade-gothic-next", sans-serif;
+  font-family: "trade-gothic-next", sans-serif !important;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.3em;
