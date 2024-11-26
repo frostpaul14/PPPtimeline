@@ -1095,7 +1095,7 @@ text-transform: none !important;
   box-orient: vertical;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
-  font-size: 16px; /*Size of the flag text on the timeline*/
+  font-size: 15px; /*Size of the flag text on the timeline*/
   line-height: 20px;
   height: 100%;
   overflow: hidden;
