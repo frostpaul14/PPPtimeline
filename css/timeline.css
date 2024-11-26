@@ -43,8 +43,8 @@
 	Snippets of reusable CSS to develop faster and keep code readable
  * ----------------------------------------------------------------- */
 .tl-timeline {
-    font-family: "trade-gothic-next", sans-serif !important; /* Replace with the Typekit font you’re using */
-}  /* VCard
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* VCard
 	================================================== */
 }
 .tl-timeline h1,
@@ -52,30 +52,24 @@
 .tl-timeline h3,
 .tl-timeline h4,
 .tl-timeline h5,
-.tl-timeline h6  {
-  font-family: "trade-gothic-next", sans-serif !important;
-  text-transform: none !important;
+.tl-timeline h6 {
   color: #000;
 }
 .tl-timeline h1,
 .tl-timeline h2,
 .tl-timeline h3 {
-  font-family: "trade-gothic-next", sans-serif !important;
-text-transform: none !important;
   font-size: 28px;
   line-height: 28px;
 }
 .tl-timeline h1 small,
 .tl-timeline h2 small,
 .tl-timeline h3 small {
-  font-family: "trade-gothic-next", sans-serif !important;
   font-size: 24px;
   line-height: 24px;
 }
 .tl-timeline h4,
 .tl-timeline h5,
 .tl-timeline h6 {
-  font-family: "trade-gothic-next", sans-serif !important;
   font-size: 24px;
   line-height: 24px;
   margin-bottom: 0px;
@@ -83,38 +77,31 @@ text-transform: none !important;
 .tl-timeline h4 small,
 .tl-timeline h5 small,
 .tl-timeline h6 small {
-  font-family: "trade-gothic-next", sans-serif !important;
   font-size: 15px;
   line-height: 15px;
 }
 .tl-timeline h2.tl-headline-title {
-  font-family: "trade-gothic-next", sans-serif !important;
   font-size: 38px;
   line-height: 38px;
 }
 .tl-timeline h2.tl-headline-title small {
-  font-family: "trade-gothic-next", sans-serif !important;
   display: block;
   margin-top: 5px;
   font-size: 24px;
   line-height: 24px;
 }
 .tl-timeline h2 {
-  font-family: "trade-gothic-next", sans-serif !important;
-  text-transform: none;
   margin-top: 20px;
   margin-bottom: 5px;
 }
 .tl-timeline p {
-  font-family: "trade-gothic-next", sans-serif !important;
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 15px;
   line-height: 1.42857143;
-  color: #E30613;
+  color: #666666;
 }
 .tl-timeline p.lead {
-  font-family: "trade-gothic-next", sans-serif !important;
   font-size: 24px;
 }
 .tl-timeline p a {
@@ -128,58 +115,52 @@ text-transform: none !important;
 			background-repeat: repeat-x;
 			background-size: 2px 2px;
 			background-position: 0 @base-font-size+2;
+			text-shadow: -2px -1px 0 white, 2px -1px 0 white, -2px 1px 0 white, 2px 1px 0 white;
 			&:hover,
 			&:focus {
 				color:@color-theme;
 				text-decoration: none;
 			}
 			*/
-  color: #E30613;
+  color: #666666;
   text-decoration: underline;
 }
 .tl-timeline p a:hover,
 .tl-timeline p a:focus {
-  font-family: "trade-gothic-next", sans-serif;
-  color: #8f6eae;
+  color: #c34528;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   .tl-timeline p a {
-    font-family: "trade-gothic-next", sans-serif;
     text-decoration: underline;
     background-image: none;
     text-shadow: none;
   }
   .tl-timeline p a:hover,
   .tl-timeline p a:focus {
-    color: #E30613;
+    color: #c34528;
     text-decoration: underline;
   }
 }
 .tl-timeline b,
 .tl-timeline strong {
-  font-family: "trade-gothic-next", sans-serif;
   font-weight: bold;
 }
 .tl-timeline i,
 .tl-timeline em {
-  font-family: "trade-gothic-next", sans-serif;
   font-style: italic;
 }
 .tl-timeline a {
-  font-family: "trade-gothic-next", sans-serif;
   text-decoration: none;
-  color: #E30613;
+  color: #c34528;
 }
 .tl-timeline a:hover {
-  font-family: "trade-gothic-next", sans-serif;
   text-decoration: underline;
-  color: #E30613;
+  color: #6e2717;
 }
 .tl-timeline .tl-caption,
 .tl-timeline .tl-credit,
 .tl-timeline .tl-slidenav-next,
 .tl-timeline .tl-slidenav-previous {
-  font-family: "trade-gothic-next", sans-serif;
   font-size: 11px;
   line-height: 11px;
 }
@@ -190,7 +171,6 @@ text-transform: none !important;
   color: #000;
 }
 .tl-timeline .tl-makelink {
-  font-family: "trade-gothic-next", sans-serif;
   word-break: break-all;
   word-break: break-word;
   -webkit-hyphens: auto;
@@ -199,7 +179,7 @@ text-transform: none !important;
 }
 .tl-timeline blockquote,
 .tl-timeline blockquote p {
-  font-family: "trade-gothic-next", sans-serif;
+  font-family: "Georgia", "Times New Roman", Times, serif;
   color: #999999;
   font-size: 24px;
   line-height: 24px;
@@ -210,7 +190,7 @@ text-transform: none !important;
 }
 .tl-timeline blockquote cite,
 .tl-timeline blockquote p cite {
-  font-family: "trade-gothic-next", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 11px;
   color: #666666;
   display: block;
@@ -222,7 +202,6 @@ text-transform: none !important;
   content: "\2014";
 }
 .tl-timeline blockquote p:before {
-  font-family: "trade-gothic-next", sans-serif;
   content: open-quote;
   display: inline-block;
   font-size: 28px;
@@ -231,7 +210,6 @@ text-transform: none !important;
   margin-right: 5px;
 }
 .tl-timeline blockquote p:after {
-  font-family: "trade-gothic-next", sans-serif;
   content: close-quote;
   display: inline-block;
   font-size: 28px;
@@ -240,15 +218,13 @@ text-transform: none !important;
   margin-left: 3px;
 }
 .tl-timeline blockquote {
-  font-family: "trade-gothic-next", sans-serif;
   margin: 10px;
 }
 .tl-timeline blockquote p {
-  font-family: "trade-gothic-next", sans-serif;
   margin: 0;
 }
 .tl-timeline .vcard {
- font-family: "trade-gothic-next", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 15px;
   margin-bottom: 15px;
@@ -328,7 +304,7 @@ text-transform: none !important;
 }
 .tl-timeline .tl-note {
   display: block;
-  font-family: "Trade-gothic-next", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   background-color: #fcf8e3;
   font-size: 15px;
@@ -337,7 +313,7 @@ text-transform: none !important;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
-  color: #E30613;
+  color: #8a6d3b;
   border: 1px solid #faebcc;
   text-shadow: none;
 }
@@ -516,7 +492,9 @@ text-transform: none !important;
 }
 .tl-icon-dribbble:after {
   content: "\e643";
-
+}
+.tl-icon-image:after {
+  content: "\e605";
 }
 .tl-icon-vimeo:after {
   content: "\e606";
@@ -579,7 +557,7 @@ text-transform: none !important;
   position: absolute;
   z-index: 11;
   text-align: center;
-  color: #E30613;
+  color: #333;
   overflow: hidden;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
@@ -661,7 +639,7 @@ text-transform: none !important;
   padding: 5px 10px 5px 10px;
   display: inline-block;
   display: block;
-  color: #E30613;
+  color: #bfbfbf;
 }
 .tl-menubar-button:disabled {
   opacity: 0.33;
@@ -669,12 +647,12 @@ text-transform: none !important;
 }
 .tl-menubar-button:hover,
 .tl-menubar-button:focus-visible {
-  background: #E30613;
-  color: #E30613;
+  background: #333;
+  color: #FFF;
 }
 .tl-menubar-button:hover:disabled,
 .tl-menubar-button:focus-visible:disabled {
-  color: #E30613;
+  color: #bfbfbf;
   background-color: rgba(242, 242, 242, 0.9);
 }
 .tl-mobile .tl-menubar-button {
@@ -682,7 +660,7 @@ text-transform: none !important;
 }
 .tl-mobile .tl-menubar-button:hover {
   background-color: rgba(242, 242, 242, 0.67);
-  color: #cbbeda;
+  color: #737373;
 }
 .tl-mobile .tl-menubar-button:active {
   background: #c34528;
@@ -826,10 +804,10 @@ text-transform: none !important;
 ================================================== */
 .tl-timenav {
   width: 100%;
-  background-color: #DADDe6; /*Background colour of the timeline top*/
+  background-color: #f2f2f2;
   position: relative;
   overflow: hidden;
-  border-top: 1px solid #0e1c3f;
+  border-top: 1px solid #e5e5e5;
 }
 .tl-timenav .tl-timenav-line {
   position: absolute;
@@ -977,7 +955,7 @@ text-transform: none !important;
   margin: 0;
   width: 100%;
   height: 100%;
-  background-color: #E30613;
+  background-color: rgba(229, 229, 229, 0.15);
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
   -webkit-transition: height 500ms cubic-bezier(0.77, 0, 0.175, 1), width 1000ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -993,7 +971,7 @@ text-transform: none !important;
   display: none;
   position: absolute;
   width: 100%;
-  background-color: #E30613;
+  background-color: #e5e5e5;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   height: 100px;
@@ -1027,7 +1005,7 @@ text-transform: none !important;
   -ms-user-select: none;
   user-select: none;
   box-shadow: 1px 1px 1px #FFF;
-} /*This below changes the time marker round pointer block on the timeline before state */
+}
 .tl-timemarker .tl-timemarker-line-left:after,
 .tl-timemarker .tl-timemarker-line-right:after {
   display: block;
@@ -1037,15 +1015,15 @@ text-transform: none !important;
   bottom: 0px;
   height: 6px;
   width: 6px;
-  background-color: #E30613;
+  background-color: #919191;
   z-index: 8;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-} /*This below changes the time marker on the timeline before state */
+}
 .tl-timemarker .tl-timemarker-content-container {
   position: absolute;
-  background-color: #591e30; /*Colour of the prestate flads on the timeline*/
+  background-color: #e5e5e5;
   border: 0;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -1093,15 +1071,13 @@ text-transform: none !important;
   box-orient: vertical;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
-  font-size: 16px; /*Size of the flag text on the timeline*/
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 12px;
   height: 100%;
   overflow: hidden;
-  font-family: "Trade-gothic-next", sans-serif;
-font-weight: 700;
-font-style: normal;
+  font-weight: normal;
   margin: 0;
-  color: #E30613;
+  color: #bfbfbf;
   position: relative;
 }
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline.tl-headline-fadeout:after,
@@ -1150,7 +1126,7 @@ font-style: normal;
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container [class*=" tl-icon-"] {
   display: block;
   font-size: 24px;
-  color: #26ff99;
+  color: #bfbfbf;
   margin-top: 0px;
 }
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container .tl-icon-wikipedia {
@@ -1171,7 +1147,7 @@ font-style: normal;
 }
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-timespan-content,
 .tl-timemarker:focus .tl-timemarker-timespan .tl-timemarker-timespan-content {
-  background-color: #e30613;
+  background-color: #bfbfbf;
 }
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-line-left,
 .tl-timemarker:focus .tl-timemarker-timespan .tl-timemarker-line-left,
@@ -1183,12 +1159,12 @@ font-style: normal;
 .tl-timemarker:focus .tl-timemarker-timespan .tl-timemarker-line-left:after,
 .tl-timemarker:hover .tl-timemarker-timespan .tl-timemarker-line-right:after,
 .tl-timemarker:focus .tl-timemarker-timespan .tl-timemarker-line-right:after {
-  background-color: #e30613;
+  background-color: #3d3d3d;
 }
 .tl-timemarker:hover .tl-timemarker-content-container,
 .tl-timemarker:focus .tl-timemarker-content-container {
-  background-color: #e30613/*Colour of the hover flag on the timeline*/;
-  border-color: #cbbeda;
+  background-color: #737373;
+  border-color: #a6a6a6;
   -webkit-transition: height 250ms cubic-bezier(0.77, 0, 0.175, 1), width 250ms cubic-bezier(0.77, 0, 0.175, 1);
   -moz-transition: height 250ms cubic-bezier(0.77, 0, 0.175, 1), width 250ms cubic-bezier(0.77, 0, 0.175, 1);
   -o-transition: height 250ms cubic-bezier(0.77, 0, 0.175, 1), width 250ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -1196,7 +1172,7 @@ font-style: normal;
 }
 .tl-timemarker:hover .tl-timemarker-content-container.tl-timemarker-content-container-small,
 .tl-timemarker:focus .tl-timemarker-content-container.tl-timemarker-content-container-small {
-  width: 250px;
+  width: 200px;
 }
 .tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
 .tl-timemarker:focus .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
@@ -1279,11 +1255,11 @@ font-style: normal;
 .tl-timemarker.tl-timemarker-active .tl-timemarker-line-right:after {
   background-color: #333;
 }
-.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container { /*Colour of the selected fag on the timeline*/
-  background-color: #26ff99;
-  color: #0;
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
+  background-color: #FFF;
+  color: #333;
   z-index: 9;
-  border-color: #26ff99;
+  border-color: rgba(51, 51, 51, 0.5);
   box-shadow: 1px 1px 3px rgba(145, 145, 145, 0.5);
 }
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
@@ -1517,7 +1493,7 @@ font-style: normal;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #f3f0f7;
+  background-color: #f2f2f2;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -1537,15 +1513,9 @@ font-style: normal;
   transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
 }
 .tl-timegroup .tl-timegroup-message {
-    color: #8f6eae;
-    z-index: 9;
-    text-shadow: #FFF 0px 2px 2px;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(3px);
-    padding: 1.2em;
-    width: 35%;
-    padding-left: 60px;
-    margin-left: 0px;
+  color: #e0e0e0;
+  text-shadow: #FFF 0px 2px 2px;
+  margin-left: 80px;
 }
 .tl-timegroup.tl-timegroup-alternate {
   background-color: #fafafa;
@@ -1562,17 +1532,17 @@ font-style: normal;
 /* TL.TimeAxis
 ================================================== */
 .tl-timeaxis-background {
-  height: 60px; /* height of the timeline */
+  height: 39px;
   width: 100%;
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: #591e30;
-  border-top: 1px solid #e30613;
+  background-color: #FFF;
+  border-top: 1px solid #e5e5e5;
   z-index: 2;
 }
 .tl-timeaxis {
-  height: 60px; /* height of the timeline marks to match the timeline bar */
+  height: 39px;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -1642,23 +1612,23 @@ font-style: normal;
   background-color: #FFF;
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick {
-  font-size: 18px;
+  font-size: 12px;
   line-height: 14px;
-  color: #E30613; /* Colour of the years */
+  color: #737373;
   width: 100px;
   margin-left: -50px;
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-major .tl-timeaxis-tick:before {
-  border-color: #E30613; /* Colour of the year line */
-  font-size: 30px;
-  line-height: 22px;
+  border-color: #a6a6a6;
+  font-size: 18px;
+  line-height: 18px;
   margin-bottom: 2px;
   margin-left: 50px;
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick {
-  font-size: 0px;
+  font-size: 11px;
   line-height: 13px;
-  color: #E30613; /* Colour of the year line */
+  color: #bfbfbf;
   width: 50px;
   margin-left: -25px;
 }
@@ -1673,7 +1643,7 @@ font-style: normal;
   font-size: 9px;
   line-height: 9px;
   margin-top: -2px;
-  color: #E30613;
+  color: #e6e6e6;
 }
 .tl-timeaxis .tl-timeaxis-content-container .tl-timeaxis-minor .tl-timeaxis-tick:before {
   font-size: 9px;
@@ -1740,7 +1710,7 @@ font-style: normal;
   filter: alpha(opacity=50);
   -khtml-opacity: 0.5;
   -moz-opacity: 0.5;
-  opacity: 1; /*ti change the opacity of a image background*/
+  opacity: 0.5;
   background: no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1822,7 +1792,7 @@ font-style: normal;
   text-align: center;
 }
 .tl-slide-text-only .tl-slide-content-container .tl-slide-content .tl-text {
-  max-width: 50%;
+  max-width: 80%;
   width: 80%;
   display: block;
   margin-left: auto;
@@ -1833,7 +1803,7 @@ font-style: normal;
 .tl-slide.tl-full-image-background,
 .tl-slide.tl-full-color-background {
   color: #FFF !important;
-  text-shadow: none !important;
+  text-shadow: 1px 1px 1px #000 !important;
 }
 .tl-slide.tl-full-image-background p,
 .tl-slide.tl-full-color-background p,
@@ -1850,7 +1820,7 @@ font-style: normal;
 .tl-slide.tl-full-image-background h6,
 .tl-slide.tl-full-color-background h6 {
   color: #FFF !important;
-  text-shadow: none !important; /*removes the drop shadow on text*/
+  text-shadow: 1px 1px 1px #000 !important;
 }
 .tl-slide.tl-full-image-background a,
 .tl-slide.tl-full-color-background a,
@@ -2112,7 +2082,7 @@ font-style: normal;
 .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-title,
 .tl-slidenav-previous .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-description,
 .tl-slidenav-next .tl-slidenav-content-container.tl-slidenav-inverted .tl-slidenav-description {
-  color: #591e30;
+  color: #f2f2f2;
   text-shadow: 1px 1px 1px #333;
 }
 /* ICONS
@@ -2385,16 +2355,16 @@ font-style: normal;
   clear: both;
 }
 .tl-media .tl-media-content-container .tl-media-content .tl-media-loaderror p {
-  color: #0000;
+  color: #f2f2f2;
   text-align: center;
 }
 .tl-media .tl-media-content-container .tl-media-content .tl-media-loaderror p span {
-  color: #00000;
+  color: #f2f2f2;
 }
 .tl-media .tl-media-content-container .tl-media-content .tl-media-loaderror [class^="tl-icon-"],
 .tl-media .tl-media-content-container .tl-media-content .tl-media-loaderror [class*=" tl-icon-"] {
   font-size: 28px;
-  color: #00000;
+  color: #f2f2f2;
   text-align: center;
 }
 .tl-media .tl-media-content-container .tl-media-content img,
@@ -2504,7 +2474,7 @@ font-style: normal;
 }
 /* Requires Variables.less
 ================================================== */
-.tl-text { /*H1 copy*/
+.tl-text {
   width: 50%;
   max-width: 50%;
   min-width: 120px;
@@ -2513,10 +2483,10 @@ font-style: normal;
   vertical-align: middle;
   text-align: left;
   text-shadow: none;
-  color: #591e30;
+  color: #737373;
 }
 .tl-text p {
-  color: #591e30; /*body copy on white*/
+  color: #737373;
 }
 .tl-text .tl-text-content-container .tl-text-headline-container {
   display: flex;
@@ -2530,34 +2500,33 @@ font-style: normal;
 }
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
-  font-family: "trade-gothic-next", sans-serif !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 15px;
   font-weight: normal;
   margin: 0 0 3px 0;
-  color: #E30613;
+  color: #b3b3b3;
 }
 .tl-text .tl-headline-date small,
 .tl-text h3.tl-headline-date small {
-   font-family: "trade-gothic-next", sans-serif !important;
   font-size: 15px;
   line-height: 15px;
   font-weight: normal;
-  color: #E30613;
+  color: #b3b3b3;
 }
 .tl-text .tl-text-date {
   display: inline-block;
-  font-family: "trade-gothic-next", sans-serif !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   margin-top: 10px;
   font-size: 12px;
-  color: #E30613;
+  color: #b3b3b3;
 }
 .tl-full-image-background .tl-text,
 .tl-full-color-background .tl-text,
 .tl-full-image-background .tl-text p,
 .tl-full-color-background .tl-text p {
-  color: #00000 !important; /*colour of the copy on a coloured background*/
+  color: #f2f2f2 !important;
   text-shadow: 1px 1px 2px #000;
 }
 .tl-full-image-background .tl-text .tl-headline-date,
@@ -2578,15 +2547,14 @@ font-style: normal;
 .tl-full-color-background .tl-text h3.tl-headline-date small,
 .tl-full-image-background .tl-text p h3.tl-headline-date small,
 .tl-full-color-background .tl-text p h3.tl-headline-date small {
-  color: #
-    !important;
+  color: #f2f2f2 !important;
 }
 .tl-full-image-background .tl-text a:hover,
 .tl-full-color-background .tl-text a:hover,
 .tl-full-image-background .tl-text p a:hover,
 .tl-full-color-background .tl-text p a:hover {
   text-decoration: underline;
-  color: #E30613;
+  color: #c34528;
 }
 /* Skinny
 ================================================== */
@@ -2599,15 +2567,15 @@ font-style: normal;
 }
 .tl-skinny .tl-text h2.tl-headline-title,
 .tl-skinny .tl-text h2.tl-headline {
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 32px;
+  line-height: 36px;
 }
 /* Medium
 ================================================== */
 .tl-medium .tl-text h2.tl-headline-title,
 .tl-medium .tl-text h2.tl-headline {
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 32px;
+  line-height: 36px;
 }
 /* Mobile, iPhone
 ================================================== */
@@ -2904,7 +2872,7 @@ font-style: normal;
   -o-user-select: none;
   user-select: none;
   background-color: #FFF;
-  color: #591e30;
+  color: #737373;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -2928,7 +2896,7 @@ font-style: normal;
   left: 0px;
   font-size: 10px;
   line-height: 10px;
-  font-family: "Trade-gothic-next", sans-serif !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   background-color: rgba(255, 255, 255, 0.85);
   padding: 3px;
 }
