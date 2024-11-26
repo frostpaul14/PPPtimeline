@@ -1740,7 +1740,7 @@ font-style: normal;
   filter: alpha(opacity=50);
   -khtml-opacity: 0.5;
   -moz-opacity: 0.5;
-  opacity: 0.5;
+  opacity: 1; /*ti change the opacity of a image background*/
   background: no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
