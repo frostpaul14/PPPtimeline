@@ -109,8 +109,8 @@ text-transform: none !important;
   font-family: "trade-gothic-next", sans-serif !important;
   margin-top: 5px;
   margin-bottom: 10px;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
   color: #E30613;
 }
 .tl-timeline p.lead {
