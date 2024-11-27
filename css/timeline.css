@@ -748,7 +748,7 @@ text-transform: none !important;
 .tl-message .tl-message-container .tl-message-content,
 .tl-message-full .tl-message-container .tl-message-content {
   color: #666;
-  text-align: center;
+  text-align: top;
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
@@ -2501,6 +2501,7 @@ font-style: normal;
 /* Requires Variables.less
 ================================================== */
 .tl-text { /*H1 copy*/
+  
   width: 50%;
   max-width: 50%;
   min-width: 120px;
