@@ -1744,11 +1744,12 @@ font-style: normal;
   -moz-opacity: 1; /*change this to change the opacity of the background with an image*/
   opacity: 1; /*change this to change the opacity of the background with an image*/
   background: no-repeat center center;
-  -webkit-background-size: auto 100%; /* Makes background fit the height */
-  -moz-background-size: auto 100%; /* Makes background fit the height */
-  -o-background-size: auto 100%; /* Makes background fit the height */
-  background-size: auto 100%; /* Makes background fit the height */
-  background-attachment: fixed; /* Ensures it stays fixed during scroll */
+  -webkit-background-size: cover; /* Ensures the background covers the whole area */
+  -moz-background-size: cover; /* Ensures the background covers the whole area */
+  -o-background-size: cover; /* Ensures the background covers the whole area */
+  background-size: cover; /* Ensures the background covers the whole area */
+  background-attachment: fixed; /* Optional: Makes the background fixed during scroll */
+
 }
 .tl-slide .tl-slide-scrollable-container {
   display: table;
