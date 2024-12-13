@@ -1734,6 +1734,8 @@ font-style: normal;
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
+  height: 100%;
   z-index: -1;
   overflow: hidden;
   display: none;
@@ -1742,12 +1744,10 @@ font-style: normal;
   -moz-opacity: 1; /*change this to change the opacity of the background with an image*/
   opacity: 1; /*change this to change the opacity of the background with an image*/
   background: no-repeat center center;
-  -webkit-background-size: cover; /* Ensures the background covers the whole area */
-  -moz-background-size: cover; /* Ensures the background covers the whole area */
-  -o-background-size: cover; /* Ensures the background covers the whole area */
-  background-size: cover; /* Ensures the background covers the whole area */
-  background-attachment: fixed; /* Optional: Makes the background fixed during scroll */
-
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .tl-slide .tl-slide-scrollable-container {
   display: table;
